@@ -1,0 +1,6 @@
+---
+-  name: software installation
+   hosts: webserver
+   tasks :
+      -  name: webserver installation
+         yum: name=httpd state=installed  	
