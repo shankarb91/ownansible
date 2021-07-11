@@ -1,0 +1,4 @@
+[webserver]
+slave1
+[databaseserver]
+slave2
