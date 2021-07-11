@@ -2,7 +2,7 @@
 -  name: software installation
    hosts: all
    tasks :
-      -  name: webserver installation
+       - name: webserver installation
          yum: name=httpd state=installed  	
-      -  name:DB package
+       - name: DB package
          yum: name=mysql state=installed
